@@ -33,7 +33,7 @@ function playNext() {
     playNum += 1;
     if (audioLibrary[playNum] === undefined) {
         playNum = 0;
-    } 
+    }
     if (isPlay) {
         playAudio();
     }
@@ -58,3 +58,4 @@ stopBtn.addEventListener('click', stopAudio);
 pauseBtn.addEventListener('click', pauseAudio);
 prevBtn.addEventListener('click', playPrev);
 nextBtn.addEventListener('click', playNext);
+
